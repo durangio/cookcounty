@@ -15,7 +15,7 @@
     
     ///Prepare the post for student
     $sql = "INSERT INTO students (FirstName, LastName, Email, Age, ScoolId)
-  	VALUES ($FirstName, $LastName, Email, Age, SchoolId)";
+  	VALUES ($FirstName, $LastName, $Email, $Age, $SchoolId)";
   	
   	//Execute above query 
   	$conn->exec($sql);
