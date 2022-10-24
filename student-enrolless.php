@@ -1,6 +1,6 @@
 <?
-	//Grab All the form  elelements
-	$FirstName = $_POST['FirstName'];
+    //Grab All the form  elelements
+    $FirstName = $_POST['FirstName'];
     $LastName = $_POST['LastName'];
     $Email = $_POST['Email'];
     $Age = $_POST['Age'];
